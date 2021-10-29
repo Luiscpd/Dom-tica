@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="estado_switch">Estado Switch</string>
+    <string name="control_led">Control Luz</string>
+    <string name="control_led2">Ventilador</string>
+    <string name="control_led3">Parqueo</string>
+    <string name="control_led4">Foco AC</string>
+    <string name="control_led5">Bocina</string>
+    <string name="raspberry_pi_control">RASPBERRY PI - CONTROL</string>
+    <string name="Domotica">Casa de Jonathan</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="5dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:text="@string/Domotica" />
+
+    <TextView
+        android:id="@+id/textToggleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/control_led"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/textToggleBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/control_led2"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+
+
+    <TextView
+        android:id="@+id/textToggleBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/control_led3"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp" />
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/textToggleBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/control_led4"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/textToggleBtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/control_led5"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
